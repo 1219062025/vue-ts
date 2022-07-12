@@ -5,21 +5,12 @@
 </template>
 
 <script setup lang="ts">
-  import service from '@/utils/http/axios';
+  import { onMounted } from 'vue';
+  import { getAccountInfoApi } from '@/api/demo/account';
 
-  type Account = {
-    id: number;
-    account: string;
-    email: string;
-    nickname: string;
-    role: string;
-    createTime: string;
-    remark: string;
-    status: '0' | '1';
-  };
-
-  service.get<Account[]>('/getAccountList').then((res) => {
-    console.log(res.data);
+  onMounted(async () => {
+    const { data } = await getAccountInfoApi();
+    console.log(data);
   });
 </script>
 

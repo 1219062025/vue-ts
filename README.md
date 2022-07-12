@@ -1,14 +1,19 @@
 # vue-ts
 
-```js
+## 项目结构
+
+```
 |- .husky
 	|- _ // husky 配置目录
+	|- pre-commit // 配置git pre-commit钩子函数
 |- .vscode // vscode工作区配置
 |- mock // mock数据处理
 |- public
 |- src // 根目录
 	|- api // 接口请求
 	|- assets // 静态资源
+		|- fonts // 字体资源
+		|- images // 图像资源
 		|- styles // 样式资源
 	|- components // 全局组件
 	|- utils // 全局工具函数
@@ -17,6 +22,7 @@
 	|- views // 视图
 	|- App.vue
 	|- main.ts
+|- types // 类型声明文件夹
 |- .eslintrc.js // eslint配置文件
 |- .gitignore // git提交忽略文件
 |- .lintstagedrc.json // lint-staged配置文件
@@ -32,13 +38,23 @@
 |- vite.config.ts // vite配置文件
 ```
 
-## dependenciesd 依赖
+## package.json
+
+### scripts 脚本
+
+`dev`：启动项目
+
+`build`：打包
+
+`prepare`：`husky`初始化
+
+### dependenciesd 依赖
 
 `axios`：`http`库
 
 `nprogress`： 进度条
 
-## devDependencies 依赖
+### devDependencies 依赖
 
 `@types/node`：`node.js`的`typescript`声明包
 

@@ -19,8 +19,8 @@ const accountList = (() => {
 
 export default [
   {
-    url: '/getAccountList',
-    timeout: 10000,
+    url: '/account/getAccountList',
+    timeout: 100,
     method: 'get',
     response: () => {
       return {
