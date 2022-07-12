@@ -13,7 +13,7 @@
     "lib": ["esnext", "dom"],
     "skipLibCheck": true,
     // 配置ts编译别名
-    "baseUrl": ".", // paths 路径解析起点 
+    "baseUrl": ".", // paths 路径解析起点
     "paths": {
       "@/*": ["src/*"] // 别名路径设置
     }

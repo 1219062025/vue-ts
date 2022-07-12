@@ -18,10 +18,6 @@
     status: '0' | '1';
   };
 
-  if (0 === -0) {
-    console.log(212);
-  }
-
   service.get<Account[]>('/getAccountList').then((res) => {
     console.log(res.data);
   });

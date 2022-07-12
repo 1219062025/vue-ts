@@ -9,7 +9,7 @@
 |- src // 根目录
 	|- api // 接口请求
 	|- assets // 静态资源
-		|- styles // 样式资源 
+		|- styles // 样式资源
 	|- components // 全局组件
 	|- utils // 全局工具函数
 		|- http // http相关
@@ -32,15 +32,13 @@
 |- vite.config.ts // vite配置文件
 ```
 
-
-
-## dependenciesd依赖
+## dependenciesd 依赖
 
 `axios`：`http`库
 
 `nprogress`： 进度条
 
-## devDependencies依赖
+## devDependencies 依赖
 
 `@types/node`：`node.js`的`typescript`声明包
 
@@ -52,7 +50,7 @@
 
 `eslint`：代码格式校验
 
-> 在使用vscode编辑器时，下载eslint扩展
+> 在使用 vscode 编辑器时，下载 eslint 扩展
 
 `eslint-config-prettier`： `prettier` 官方提供的一款解决`ESLint` 的规则和 `Prettier` 的规则冲突问题的依赖
 
@@ -66,15 +64,15 @@
 
 `prettier`：代码风格美化
 
-> 在使用vscode编辑器时，下载prettier扩展
+> 在使用 vscode 编辑器时，下载 prettier 扩展
 
 `sass`： `sass`预处理器，不安装的话无法在项目中使用`scss`语法
 
-`stylelint`^13.13.1：`css`代码格式校验，安装指定13.13.1版本，不然报错
+`stylelint`^13.13.1：`css`代码格式校验，安装指定 13.13.1 版本，不然报错
 
-> 在使用vscode编辑器时，下载stylelint扩展，并且把扩展版本退为v0.87.6
+> 在使用 vscode 编辑器时，下载 stylelint 扩展，并且把扩展版本退为 v0.87.6，需要注意的时，vscode 默认是会自动更新扩展的，需要禁用掉
 
-`stylelint-config-standard`^22.0.0：`stylelint` 官方提供的扩展，内置了大量推荐的 `css` 相关规则，安装指定22.0.0版本，不然报错
+`stylelint-config-standard`^22.0.0：`stylelint` 官方提供的扩展，内置了大量推荐的 `css` 相关规则，安装指定 22.0.0 版本，不然报错
 
 `stylelint-order`：与 `css` 属性顺序相关的插件，支持自定义属性的书写顺序（例如：先写定位属性，再写盒模型），并且能够帮助你自动修正属性的顺序
 
