@@ -19,6 +19,7 @@
   };
 
   service.get<Account[]>('/getAccountList').then((res) => {
+    console.log(11);
     console.log(res.data);
   });
 </script>
