@@ -4,24 +4,24 @@
 
 ```
 |- .husky
-	|- _ // husky 配置目录
-	|- pre-commit // 配置git pre-commit钩子函数
+  |- _ // husky 配置目录
+  |- pre-commit // 配置git pre-commit钩子函数
 |- .vscode // vscode工作区配置
 |- mock // mock数据处理
 |- public
 |- src // 根目录
-	|- api // 接口请求
-	|- assets // 静态资源
-		|- fonts // 字体资源
-		|- images // 图像资源
-		|- styles // 样式资源
-	|- components // 全局组件
-	|- utils // 全局工具函数
-		|- http // http相关
-			|- axios // 封装axios
-	|- views // 视图
-	|- App.vue
-	|- main.ts
+  |- api // 接口请求
+  |- assets // 静态资源
+    |- fonts // 字体资源
+    |- images // 图像资源
+    |- styles // 样式资源
+  |- components // 全局组件
+  |- utils // 全局工具函数
+    |- http // http相关
+      |- axios // 封装axios
+  |- views // 视图
+  |- App.vue
+  |- main.ts
 |- types // 类型声明文件夹
 |- .eslintrc.js // eslint配置文件
 |- .gitignore // git提交忽略文件
