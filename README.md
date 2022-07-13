@@ -16,6 +16,7 @@
     |- images // 图像资源
     |- styles // 样式资源
   |- components // 全局组件
+  |- plugins // 插件相关
   |- router // 路由相关
   |- sotre // 状态管理相关
   |- utils // 全局工具函数
@@ -90,7 +91,7 @@
 
 `stylelint`^13.13.1：`css`代码格式校验，安装指定 13.13.1 版本，不然报错
 
-> 在使用 vscode 编辑器时，下载 stylelint 扩展，并且把扩展版本退为 v0.87.6，需要注意的时，vscode 默认是会自动更新扩展的，需要禁用掉
+> 在使用 vscode 编辑器时，下载 stylelint 扩展，并且把扩展版本退为 v0.87.6，需要注意的是，vscode 默认是会自动更新扩展的，需要禁用掉
 
 `stylelint-config-standard`^22.0.0：`stylelint` 官方提供的扩展，内置了大量推荐的 `css` 相关规则，安装指定 22.0.0 版本，不然报错
 
