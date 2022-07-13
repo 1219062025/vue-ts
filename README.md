@@ -16,6 +16,8 @@
     |- images // 图像资源
     |- styles // 样式资源
   |- components // 全局组件
+  |- router // 路由相关
+  |- sotre // 状态管理相关
   |- utils // 全局工具函数
     |- http // http相关
       |- axios // 封装axios
@@ -53,6 +55,8 @@
 `axios`：`http`库
 
 `nprogress`： 进度条
+
+`pinia`：状态管理
 
 ### devDependencies 依赖
 
